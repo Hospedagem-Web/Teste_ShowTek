@@ -172,21 +172,3 @@ span {
 }
 
 
-/* Configurações específicas para Moto G7 Play (resolução 720px x 1512px) */
-@media (max-width: 720px) {
-    .header-image img {
-        max-height: 180px; /* Ajuste adicional para telas muito pequenas */
-    }
-
-    nav a {
-        font-size: 0.8rem; /* Texto menor nos links para caber melhor */
-    }
-
-    h2 {
-        font-size: 1rem; /* Tamanho do título reduzido ainda mais */
-    }
-
-    .card {
-        max-width: 95%; /* Ajusta a largura do card */
-    }
-}
