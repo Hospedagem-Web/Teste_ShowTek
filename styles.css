@@ -172,38 +172,21 @@ span {
 }
 
 
-/* Responsividade */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5rem; /* Ajusta tamanho do título em telas menores */
-    }
-
-    .navbar a {
-        font-size: 0.9rem; /* Texto menor para navegação em telas médias */
-        padding: 8px 12px; /* Ajusta espaçamento interno dos links */
-    }
-}
-
-@media (max-width: 480px) {
+/* Configurações específicas para Moto G7 Play (resolução 720px x 1512px) */
+@media (max-width: 720px) {
     .header-image img {
-        max-height: 250px; /* Reduz altura máxima da imagem em telas pequenas */
-    }
-
-    nav {
-        flex-direction: column; /* Navegação em formato vertical para telas pequenas */
-        align-items: center; /* Centraliza links verticalmente */
-    }
-
-    .card {
-        max-width: 20%; /* Ajusta largura do card para telas menores */
-    }
-
-    h2 {
-        font-size: 1rem; /* Reduz tamanho dos títulos para telas pequenas */
+        max-height: 180px; /* Ajuste adicional para telas muito pequenas */
     }
 
     nav a {
-        padding: 10px; /* Ajusta espaçamento interno dos links */
-        margin: 5px 0; /* Espaçamento entre links em formato vertical */
+        font-size: 0.8rem; /* Texto menor nos links para caber melhor */
+    }
+
+    h2 {
+        font-size: 1rem; /* Tamanho do título reduzido ainda mais */
+    }
+
+    .card {
+        max-width: 95%; /* Ajusta a largura do card */
     }
 }
