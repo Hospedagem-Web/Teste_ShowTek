@@ -142,14 +142,14 @@ body {
     padding: 0; /* Remove padding padrão */
     background-color: #fff; /* Fundo claro para bom contraste */
 }
+
 h1 {
 	text-align: center;
 	margin: 40px 0 40px;
-	text-align: center;
-	font-size: 30px;
+	font-size: 10px;
 	color: #000000;
-	text-shadow: 2px 2px 4px #000000;
-	font-family: 'Cherry Swash', cursive;
+	/*text-shadow: 2px 2px 4px #000000;*/
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
 	text-align: center;
@@ -173,6 +173,32 @@ p {
 
 span {
     color: #2BD6B4;
+}
+
+
+/*teste*/
+/* Smartphones */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Ajuste para leitura confortável */
+        padding: 10px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        padding: 30px;
+    }
 }
 
 
