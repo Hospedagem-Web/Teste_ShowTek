@@ -134,9 +134,13 @@ nav .start-inscreva-se, a:nth-child(6):hover~.animation {
 }
 
 body {
-	font-size: 12px;
-	font-family: sans-serif;
-	background: #ffffff;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto como principal, Arial como alternativa e sans-serif como fallback */
+    font-size: 14px; /* Tamanho do texto ideal para dispositivos móveis */
+    line-height: 1.5; /* Espaçamento entre linhas ajustado para leitura em telas pequenas */
+    color: #333; /* Cor de texto padrão com bom contraste */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: #fff; /* Fundo claro para bom contraste */
 }
 h1 {
 	text-align: center;
