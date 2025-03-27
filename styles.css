@@ -4,15 +4,14 @@
     text-align: center; /* Centraliza a imagem dentro do cabeçalho */
     background-color: rgb(0, 0, 0); /* Define uma cor de fundo como alternativa */
     width: 100%; /* O cabeçalho ocupa toda a largura da tela */
-    height: 300px; /* Altura do cabeçalho */
+    height: 350px; /* Altura do cabeçalho */
     overflow: hidden; /* Evita que conteúdo ultrapasse os limites do cabeçalho */
-    margin: 0; /* Remove margens externas */
-    padding: 0; /* Remove espaçamento interno */
+    /*margin: 0; /* Remove margens externas */
+    /*padding: 0; /* Remove espaçamento interno */
 }
 
 .header-image img {
-	width: 100%;/* Faz a imagem ocupar toda a largura */
-
+	width: 120%;/* Faz a imagem ocupar toda a largura */
 	height:max-content;/* Mantém proporções */
 	max-height: 300px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
