@@ -220,7 +220,7 @@ span {
 /* Desktops */
 @media (min-width: 1025px) {
 	body {
-		font-size: 10px;
-		padding: 10px;
+		font-size: 16px;
+		padding: 16px;
 	}
 }
