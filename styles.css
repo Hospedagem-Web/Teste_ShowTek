@@ -12,6 +12,7 @@
 
 .header-image img {
 	width: 100%;/* Faz a imagem ocupar toda a largura */
+
 	height:max-content;/* Mantém proporções */
 	max-height: 350px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
@@ -27,7 +28,7 @@
 	/* Centraliza horizontalmente */
 	text-align: justify;
 	/* Justifica o texto para melhor leitura */
-	padding: 30px;
+	padding: 20px;
 	/* Adiciona espaçamento interno */
 	font-size: 1rem;
 	/* Ajusta o tamanho da fonte */
@@ -38,17 +39,17 @@
 nav {
 	margin: 10px auto 0;
 	position: relative;
-	width: 470px;
-	height: 30px;
+	width: 670px;
+	height: 40px;
 	background-color: hsl(0, 0%, 0%);
 	border-radius: 8px;
 	font-size: 0;
 }
 
 nav a {
-	line-height: 30px;
+	line-height: 40px;
 	height: 100%;
-	font-size: 10px;
+	font-size: 13px;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
@@ -69,68 +70,68 @@ nav .animation {
 }
 
 a:nth-child(1) {
-	width: 70px;
+	width: 105px;
 }
 
 a:nth-child(2) {
-	width: 60px;
+	width: 90px;
 }
 
 a:nth-child(3) {
-	width: 75px;
+	width: 110px;
 }
 
 a:nth-child(4) {
-	width: 80px;
+	width: 120px;
 }
 
 a:nth-child(5) {
-	width: 90px;
+	width: 120px;
 }
 
 a:nth-child(6) {
-	width: 90px;
+	width: 120px;
 }
 
 nav .start-home,
 a:nth-child(1):hover~.animation {
-	width: 70px;
+	width: 100px;
 	left: 0;
 	background-color: #1abc9c;
 }
 
 nav .start-about,
 a:nth-child(2):hover~.animation {
-	width: 67px;
-	left: 65px;
+	width: 100px;
+	left: 100px;
 	background-color: #e74c3c;
 }
 
 nav .start-blog,
 a:nth-child(3):hover~.animation {
-	width: 75px;
-	left: 130px;
+	width: 100px;
+	left: 200px;
 	background-color: #3498db;
 }
 
 nav .start-portefolio,
 a:nth-child(4):hover~.animation {
-	width: 90px;
-	left: 198px;
+	width: 127px;
+	left: 300px;
 	background-color: #9b59b6;
 }
 
 nav .start-contact,
 a:nth-child(5):hover~.animation {
-	width: 81px;
-	left: 290px;
+	width: 110px;
+	left: 428px;
 	background-color: #e67e22;
 }
 
 nav .start-inscreva-se,
 a:nth-child(6):hover~.animation {
-	width: 100px;
-	left: 370px;
+	width: 130px;
+	left: 540px;
 	background-color: #b8b046;
 }
 
@@ -223,5 +224,4 @@ span {
 		font-size: 10px;
 		padding: 10px;
 	}
-}
-*/
+}*/
