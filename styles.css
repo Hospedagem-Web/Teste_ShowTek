@@ -4,7 +4,7 @@
     text-align: center; /* Centraliza a imagem dentro do cabeçalho */
     background-color: rgb(0, 0, 0); /* Define uma cor de fundo como alternativa */
     width: 100%; /* O cabeçalho ocupa toda a largura da tela */
-    height: 350px; /* Altura do cabeçalho */
+    height: 500px; /* Altura do cabeçalho */
     overflow: hidden; /* Evita que conteúdo ultrapasse os limites do cabeçalho */
     margin: 0; /* Remove margens externas */
     padding: 0; /* Remove espaçamento interno */
@@ -13,7 +13,7 @@
 .header-image img {
 	width: 100%;/* Faz a imagem ocupar toda a largura */
 	height:max-content;/* Mantém proporções */
-	max-height: 350px;/* Ajuste a altura máxima do cabeçalho */
+	max-height: 550px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
 }
 /**********************************************/
@@ -133,9 +133,9 @@ a:nth-child(6):hover~.animation {
 .card {
 	width: 90%;
 	/* Ajuste para telas pequenas */
-	max-width: 210px;
-	margin: 0px auto;
-	padding: 10px;
+	max-width: 300px;
+	margin: 30px auto;
+	padding: 50px;
 	background-color: #ffffff;
 	color: white;
 	border-radius: 8px;
@@ -146,14 +146,13 @@ a:nth-child(6):hover~.animation {
 
 /* Botão */
 .btn {
-	padding: 10px 7px;
+	padding: 20px 100px;
 	background-color: #284924;
 	color: white;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	font-size: 1rem;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+	font-size: 1.2rem;
 	transition: background-color 0.3s ease;
 }
 
