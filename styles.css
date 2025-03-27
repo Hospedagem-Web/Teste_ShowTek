@@ -6,14 +6,15 @@
     width: 100%; /* O cabeçalho ocupa toda a largura da tela */
     height: 350px; /* Altura do cabeçalho */
     overflow: hidden; /* Evita que conteúdo ultrapasse os limites do cabeçalho */
-    /*margin: 0; /* Remove margens externas */
-    /*padding: 0; /* Remove espaçamento interno */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamento interno */
 }
 
 .header-image img {
 	width: 100%;/* Faz a imagem ocupar toda a largura */
+
 	height:max-content;/* Mantém proporções */
-	max-height: 400px;/* Ajuste a altura máxima do cabeçalho */
+	max-height: 350px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
 }
 /**********************************************/
@@ -21,13 +22,13 @@
 /**********************************************/
 /* Limitar a posição do texto */
 .text-limited {
-	max-width: 1000px;
+	max-width: 800px;
 	/* Limita a largura máxima do texto */
 	margin: 0 auto;
 	/* Centraliza horizontalmente */
 	text-align: justify;
 	/* Justifica o texto para melhor leitura */
-	padding: 50px;
+	padding: 30px;
 	/* Adiciona espaçamento interno */
 	font-size: 1rem;
 	/* Ajusta o tamanho da fonte */
@@ -138,7 +139,7 @@ a:nth-child(6):hover~.animation {
 .card {
 	width: 90%;
 	/* Ajuste para telas pequenas */
-	max-width: 170px;
+	max-width: 210px;
 	margin: 0px auto;
 	padding: 10px;
 	background-color: #ffffff;
@@ -151,7 +152,7 @@ a:nth-child(6):hover~.animation {
 
 /* Botão */
 .btn {
-	padding: 7px 5px;
+	padding: 10px 7px;
 	background-color: #284924;
 	color: white;
 	border: none;
@@ -169,7 +170,7 @@ a:nth-child(6):hover~.animation {
 body {
 	font-family: 'Roboto', Arial, sans-serif;
 	/* Roboto como principal, Arial como alternativa e sans-serif como fallback */
-	font-size: 16px;
+	font-size: 14px;
 	/* Tamanho do texto ideal para dispositivos móveis */
 	line-height: 1.5;
 	/* Espaçamento entre linhas ajustado para leitura em telas pequenas */
@@ -205,6 +206,7 @@ span {
 		font-size: 10px;
 		/* Ajuste para leitura confortável */
 		padding: 10px;
+		height: 350px; /* Altura do cabeçalho */
 	}
 }
 
@@ -212,14 +214,14 @@ span {
 @media (min-width: 481px) and (max-width: 1024px) {
 	body {
 		font-size: 10px;
-		padding: 20px;
+		padding: 10px;
 	}
 }
 
 /* Desktops */
 @media (min-width: 1025px) {
 	body {
-		font-size: 11px;
-		padding: 16px;
+		font-size: 10px;
+		padding: 10px;
 	}
 }
