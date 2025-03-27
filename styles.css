@@ -12,7 +12,6 @@
 
 .header-image img {
 	width: 100%;/* Faz a imagem ocupar toda a largura */
-
 	height:max-content;/* Mantém proporções */
 	max-height: 350px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
@@ -22,24 +21,19 @@
 /**********************************************/
 /* Limitar a posição do texto */
 .text-limited {
-	max-width: 1000px;
-	/* Limita a largura máxima do texto */
-	margin: 0 auto;
-	/* Centraliza horizontalmente */
-	text-align: justify;
-	/* Justifica o texto para melhor leitura */
-	padding: 20px;
-	/* Adiciona espaçamento interno */
-	font-size: 1.1rem;
-	/* Ajusta o tamanho da fonte */
-	/*color: #040404; /* Garante contraste com o fundo */
+	max-width: 1300px;/* Limita a largura máxima do texto */
+	margin: 0 auto;/* Centraliza horizontalmente */
+	text-align: justify;/* Justifica o texto para melhor leitura */
+	padding: 30px;/* Adiciona espaçamento interno */
+	font-size:1.2rem;/* Ajusta o tamanho da fonte */
+	color: #040404; /* Garante contraste com o fundo */
 }
 
 
 nav {
 	margin: 10px auto 0;
 	position: relative;
-	width: 670px;
+	width: 900px;
 	height: 40px;
 	background-color: hsl(0, 0%, 0%);
 	border-radius: 8px;
@@ -48,8 +42,8 @@ nav {
 
 nav a {
 	line-height: 40px;
-	height: 100%;
-	font-size: 13px;
+	height: 200%;
+	font-size: 15px;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
@@ -70,68 +64,68 @@ nav .animation {
 }
 
 a:nth-child(1) {
-	width: 105px;
+	width: 130px;
 }
 
 a:nth-child(2) {
-	width: 90px;
+	width: 130px;
 }
 
 a:nth-child(3) {
-	width: 110px;
+	width: 130px;
 }
 
 a:nth-child(4) {
-	width: 120px;
+	width: 170px;
 }
 
 a:nth-child(5) {
-	width: 120px;
+	width: 170px;
 }
 
 a:nth-child(6) {
-	width: 120px;
+	width: 170px;
 }
 
 nav .start-home,
 a:nth-child(1):hover~.animation {
-	width: 100px;
+	width: 130px;
 	left: 0;
 	background-color: #1abc9c;
 }
 
 nav .start-about,
 a:nth-child(2):hover~.animation {
-	width: 100px;
-	left: 100px;
+	width: 130px;
+	left: 130px;
 	background-color: #e74c3c;
 }
 
 nav .start-blog,
 a:nth-child(3):hover~.animation {
-	width: 100px;
-	left: 200px;
+	width: 130px;
+	left: 260px;
 	background-color: #3498db;
 }
 
 nav .start-portefolio,
 a:nth-child(4):hover~.animation {
-	width: 127px;
-	left: 300px;
+	width: 170px;
+	left: 390px;
 	background-color: #9b59b6;
 }
 
 nav .start-contact,
 a:nth-child(5):hover~.animation {
-	width: 110px;
-	left: 428px;
+	width: 170px;
+	left: 560px;
 	background-color: #e67e22;
 }
 
 nav .start-inscreva-se,
 a:nth-child(6):hover~.animation {
-	width: 130px;
-	left: 540px;
+	width: 170px;
+	left: 730px;
 	background-color: #b8b046;
 }
 
@@ -218,10 +212,10 @@ span {
 	}
 }
 
-/* Desktops *//*
+/* Desktops */
 @media (min-width: 1025px) {
 	body {
 		font-size: 10px;
 		padding: 10px;
 	}
-}*/
+}
