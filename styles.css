@@ -12,7 +12,6 @@
 
 .header-image img {
 	width: 100%;/* Faz a imagem ocupar toda a largura */
-
 	height:max-content;/* Mantém proporções */
 	max-height: 350px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
@@ -218,10 +217,11 @@ span {
 	}
 }
 
-/* Desktops */
+/* Desktops *//*
 @media (min-width: 1025px) {
 	body {
 		font-size: 10px;
 		padding: 10px;
 	}
 }
+*/
