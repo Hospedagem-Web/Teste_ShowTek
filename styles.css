@@ -191,7 +191,7 @@ span {
 	color: #2BD6B4;
 }
 
-
+/*******************RESPONBSIVIDADE********************/
 /*teste*/
 /* Smartphones */
 @media (max-width: 780px) {
@@ -211,10 +211,35 @@ span {
 	}
 }
 
-/* Desktops */
+/* Desktops *//*
 @media (min-width: 1025px) {
 	body {
 		font-size: 10px;
 		padding: 10px;
 	}
+}*/
+
+.header-mobile img {
+    width: 100%;
+    height: auto;
+}
+
+.header-desktop img {
+    width: auto;
+    height: 500px;
+}
+/*
+.card {
+    max-width: 100%;
+}*/
+
+@media (max-width: 780px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    nav a {
+        display: block;
+        margin: 5px;
+    }
 }
