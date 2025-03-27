@@ -11,9 +11,9 @@
 }
 
 .header-image img {
-	width: 120%;/* Faz a imagem ocupar toda a largura */
+	width: 100%;/* Faz a imagem ocupar toda a largura */
 	height:max-content;/* Mantém proporções */
-	max-height: 300px;/* Ajuste a altura máxima do cabeçalho */
+	max-height: 400px;/* Ajuste a altura máxima do cabeçalho */
 	object-fit:contain;/* Faz a imagem preencher o espaço do cabeçalho */
 }
 /**********************************************/
@@ -169,7 +169,7 @@ a:nth-child(6):hover~.animation {
 body {
 	font-family: 'Roboto', Arial, sans-serif;
 	/* Roboto como principal, Arial como alternativa e sans-serif como fallback */
-	font-size: 14px;
+	font-size: 16px;
 	/* Tamanho do texto ideal para dispositivos móveis */
 	line-height: 1.5;
 	/* Espaçamento entre linhas ajustado para leitura em telas pequenas */
