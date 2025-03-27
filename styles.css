@@ -22,7 +22,7 @@
 /**********************************************/
 /* Limitar a posição do texto */
 .text-limited {
-	max-width: 800px;
+	max-width: 1000px;
 	/* Limita a largura máxima do texto */
 	margin: 0 auto;
 	/* Centraliza horizontalmente */
@@ -30,7 +30,7 @@
 	/* Justifica o texto para melhor leitura */
 	padding: 20px;
 	/* Adiciona espaçamento interno */
-	font-size: 1rem;
+	font-size: 2rem;
 	/* Ajusta o tamanho da fonte */
 	/*color: #040404; /* Garante contraste com o fundo */
 }
