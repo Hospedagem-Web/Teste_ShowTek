@@ -22,15 +22,15 @@
 /**********************************************/
 /* Limitar a posição do texto */
 .text-limited {
-	max-width: 800px;
+	max-width: 1000px;
 	/* Limita a largura máxima do texto */
 	margin: 0 auto;
 	/* Centraliza horizontalmente */
 	text-align: justify;
 	/* Justifica o texto para melhor leitura */
-	padding: 30px;
+	padding: 50px;
 	/* Adiciona espaçamento interno */
-	font-size: 1rem;
+	font-size: 5rem;
 	/* Ajusta o tamanho da fonte */
 	/*color: #040404; /* Garante contraste com o fundo */
 }
@@ -201,7 +201,7 @@ span {
 
 /*teste*/
 /* Smartphones */
-@media (max-width: 480px) {
+@media (max-width: 780px) {
 	body {
 		font-size: 10px;
 		/* Ajuste para leitura confortável */
